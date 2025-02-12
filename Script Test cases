@@ -1,1 +1,397 @@
+                         Blog management Script Test cases 
+
+
+Script 1:
+Add Blog Post (Using default category)   
+When you first open the admin page,ensure that no blog posts have been added, and confirm that the landing page displays as ”No blog posts have been added yet! Kindly add a blog post for your store.”   
+Check whether the "+ Add Blog Post " button is clickable or not.    
+Check whether the “Blog title is required.” error message is displaying when the field is left empty 
+Enter Blog Title 
+Check whether the “Blog name should not exceed 70 characters” error message is displayed when entering more than 70 characters in the Blog Title text field.
+Check whether the “Blog title already exists” error message is displayed while giving the already existing Blog title.
+Enter correct Blog Title 
+Check whether the Author dropdown field is clickable or not.
+Check whether the “Author required” error message is displaying when the field is left empty
+Check whether the staff names available in the store are displaying in the Author dropdown
+Check whether the search field in the author dropdown is clickable or not
+Select author 
+Check whether the Category dropdown field is clickable or not.
+Check whether even if no category is added, the “DEFAULT” category is available and selected by default.
+Check whether the available blog categories in the store are displaying under the categories dropdown.
+Select category or choose default 
+Check whether the comments type (disabled, allowed but needs review and published automatically) for the category if chosen is displaying a text field under the categories dropdown field. 
+Check whether the “Add image, Zenbasket Gallery, Store Image Gallery” buttons are present under image upload in the main image section. 
+Check whether the “Banner image is required” error message is displaying  while saving the blog without the main image 
+Click Add image button
+Check whether the Add image button is working properly 
+Check whether the file upload window opens when clicking the image upload option in the main image section.
+Check whether the “Please select file with dimensions (1280 *800 pixels) error message while upload image from computer other than the (1280 *800 pixels) dimension
+Upload the correct file size
+Check whether the close icon is present above the chosen image.
+Check whether the close icon is working properly.
+Click zenbasket Gallery button
+Check whether the Zenbasket Gallery button is working properly
+Check whether the Zenbasket gallery images window is open when clicking the Zenbasket gallery button
+Check whether the Zenbasket Gallery page loads properly
+Check whether the search field is clickable in the zenbasket gallery images window.
+Check whether the search field is working properly.
+ Check whether the Add Image button is shown when hover over images in the zenbasket gallery window.
+Check whether the chosen image is shown in the Main image section after clicking the add image button.
+Check whether the close icon in the zenbasket gallery images window is clickable or not.
+Click Store image Gallery 
+Check whether the Store Image Gallery button is clickable or not
+Check whether the Store Image gallery window open when clicking the Store Image Gallery button and loading properly
+Check whether the search field is clickable in the Store image gallery window
+Check whether the search field is working properly
+Check whether the sort icon in the window is clickable and sort options (Image name A-Z, Image name Z-A, Latest first, Oldest first) are working properly
+Check whether the image is selected after clicking the 'Add Image' button, determining if it's enabled or not.
+Verify that only one image can be selected; if to add another image after one is selected, display a snack bar message as “'Blog image count reached the maximum limit!'.
+Check whether the selected image is shown in the main images section after clicking the Add image button.
+Check whether the availability toggle button is working properly.(defaultly enable) 
+Check whether Schedule Publish and Publish Now radio buttons are available under Visibility option.
+Type 1: 
+Choose the Publish Now option. (Proceed with default option)
+Check whether the current date is shown in the text field when choosing Publish now radio button and it is not editable
+Check whether the current time is shown in a text field while selecting publish now option 
+In the SEO details, Check whether the SEO Page Title field is clickable or not.
+Enter SEO title 
+Check whether the “ SEO Page Title should not exceed 150 characters” when entering more than the 150 characters in the SEO text field.
+Enter correct SEO title
+Check whether the Search keyword field is clickable or not.
+ Enter Search Keyword  
+Enter Meta description 
+Check whether the Meta Description field is clickable or not. Check whether the “SEO Description should not exceed 320 characters” when entering more than the 320 characters.
+Enter proper description   
+Check whether the content area is clickable or not. 
+Enter content
+Check whether the undo is working properly when entering some content.
+Check whether the Redo is working properly when removing some portion of the content.
+Select some title 
+Check whether the “Paragraph, Heading1, Heading2, Heading3” options are working properly 
+Check whether the Font family, Font size, Font color, Font background color options are working properly
+Check whether the Bold, Italic, Underline and Strikethrough icons are clickable and working properly
+Check whether the Link add option is working properly
+Check whether the insert image option is working properly ,reducing the image size, image alignment, add caption, and given alt name or working properly.   
+In insert table check whether the selected rows and columns are displayed properly 
+In row, column table- header, insert(left and right), delete, select, merge, split options are working properly 
+ Insert Blockquotes are working properly
+In insert media embedded video link is working properly     
+Check whether the text alignment (Left, Right, center, justify) options are working properly
+Check whether the Bulleted list (Disc, circle, square) options are working properly 
+Check whether the Numbered list options are working properly
+Check whether the Decrease increase indent icons are working  properly
+Check whether the Insert HTML icon is clickable  
+Check whether the text area for writing HTML snippet is shown in the content area
+Check whether the “Save” button is clickable and working properly
+Check whether the success message popup is shown as 'The blog was created successfully' when clicking the save button after filling all required fields.
+Check whether clicking “Ok” button in the success popup redirects to blog post list page
+Check whether the state of Availability toggle button is displayed correctly in the blog post list page after saving the blog post.
+check whether the added blog posts are displayed in the storefront under the "Blogs" header menu.
+
+Type 2:
+            
+Click Edit icon
+Check whether clicking on Edit icon redirects to Edit Blog post page.
+Choose Schedule Publish option from publish now
+Check whether the Schedule date field is open when choosing Schedule publish option
+Check whether the schedule date field is working properly and able to select current and future days
+Select Schedule date
+Check whether the time dropdown field is open when selecting schedule publish button
+Check whether the times with 30 min difference from 12:00AM to 11:30PM shown as dropdown option when clicking the dropdown.
+Select schedule time
+Check whether the Preview button is clickable or not.
+Check whether the preview blog post page is displayed when the preview button is clicked or not.
+Check whether the given required fields are displayed on the preview blog post page or not.
+Check whether the back button is present on the preview blog post page.
+check whether the "Back" button is working properly.
+Check whether the “Update” button is clickable and working properly.
+Check whether the success message popup is shown as 'The blog was updated successfully' when clicking the save button after filling all required fields.
+Check whether clicking “Ok” button in the success popup redirects to blog post list page.    
+Blog Post List page
+        
+ Check whether the table titles Title, Author, Blog Category, Created Date,  Availability and Actions are present or not 
+Check whether the created blog post title are listed under the corresponding “titles” table titles 
+Check whether the created author names are listed under the corresponding “author” table titles
+Check whether the selected blog category are listed under the corresponding “blog category” table titles.
+Check whether the blog post created date are listed under the corresponding “created date” table titles.
+Check whether the Availability toggle button in every blog post is clickable or not.
+Check whether the Availability toggle button is working properly
+Check whether the Edit and Remove icons are listed under the corresponding  “Actions” table titles.
+Edit Blog Post
+
+Check whether the Edit icon is clickable or not.
+Check whether clicking on Edit icon redirects to Edit Blog post page.
+Check whether the alert popup “You have no changes to save.” is displayed while clicking the Update button without doing changes.
+Edit the blog content 
+Check whether the confirmation popup “You have unsaved changes. Are you sure you want to leave this page?” is displayed while clicking the Cancel button after doing changes.
+Check whether the “Update” button is working properly  
+Check whether the “The blog post was updated successfully” is displayed while clicking the update button after doing the changes and its redirects to blog post list page.
+
+Delete Blog Post
+
+Check whether the “Remove Blog” icon is clickable or not.
+Check whether the confirmation popup “Are you sure you want to remove this blog” is displayed after clicking the “Remove Blog” icon.
+Check whether the success popup “Blog removed successfully” is displaying after clicking “Yes” in the confirmation popup 
+
+Bulk Delete
+
+Check whether the “Bulk Delete” button is clickable or not
+Check whether the alert popup “You have no blog(s) selected to remove.” is displayed while clicking the “Bulk Delete” button without selecting any blogs.
+Select the blogs you want to delete in bulk 
+Check whether the confirmation popup “Are you sure you want to remove the selected blogs?” is displayed while clicking on the “Bulk Delete” button after selecting blogs.
+Check whether the Success popup “Blogs removed successfully” is displayed after clicking the “Yes” button in the confirmation popup.
+
+Filters 
+
+Check whether the filter icon is clickable or not.
+Check whether “Availability, Custom Date, Blog Category, Author” options are present under the filter
+Check whether the Enabled and Disabled radio buttons under Availability working properly.
+Check whether the date picker field under the custom date range is working properly
+Check whether future dates are not choosable in the calendar
+Check whether the end date can’t chosen less than start date
+Check whether the Blog categories are listed under Blog Categories dropdown.
+Check whether the search field in the blog categories dropdown is clickable and working properly
+Check whether the staff names in the store are listing under Author dropdown
+Check whether the search field in the Author dropdown is clickable and working properly
+Check whether the This Year and Last Year buttons are present under Days option and working properly.
+Check whether the "Apply" button is enabled when the filter option is chosen
+Check whether the "Apply" button is working properly.
+Check whether the number of selected filters is displayed after choosing the filters.
+Check whether a  "No records found" message is displayed or not when there are no filter results available.
+Check whether the "Reset filter" icon is working properly.
+Check whether the "Close" icon is working properly.
+Sort
+
+Check whether the sort icon is clickable or not."
+Check whether the options 'Blog Post Title (A-Z), Blog Post Title (Z-A), Last Modified, First Modified, Last Created, First Created' are displayed under the sort icon."
+Check whether the sort options are working properly.
+
+Script 2 :
+Add blog category: 
+
+Type 1:
+When you first open the admin page, please ensure that no blog categories are added, and confirm that a “DEFAULT” blog category displays with zero blog post counts without any actions.    
+Confirm if the add blog category button is functional and clickable.
+Check whether the categories and blogs tabs are clickable.
+Check whether the “Category name is required.” error message is displaying when the field is left empty
+Enter the category name
+Check whether the "Category name already exists" error message is displayed when the given category name already exists.
+Check whether the "Category name should not exceed 50 characters" error message is displayed when entering more than 50 characters in the category name field.
+Enter the proper category name 
+Enter SEO Title 
+Check whether the SEO Page Title field is clickable or not.
+Please verify if an error message “SEO page title should not exceed 150 characters” appears when the character limit is exceeded in the search engine optimization page title field.
+Enter Proper SEO title 
+Check whether the Search keyword field is clickable or not.
+Check whether the Meta description field is clickable or not.
+Check whether the “ Meta description should not exceed 320 characters” when entering more than the 320 characters in the meta description text field. 
+Enter proper meta description 
+confirm whether an alert message “Please fill out the mandatory fields properly” is presented when attempting to switch to the blog tab without completing the mandatory fields in the categories tab.
+Click ok button
+Select "Comments are disabled", This will ensure the comment section is not available in the storefront.
+Verify that the blog category can be saved without choosing blogs.
+Check whether a success message “The blog category was successfully created.” is displayed when clicking the save button and it redirects to the blog category list page.
+Check whether zero count is present in blog post count column
+Click the edit icon on the same blog
+Clicks the blogs tab
+Check whether no records found is displayed when the store has no blogs .
+Please confirm whether the Blogs tab is loading properly and available blog posts are displayed (If the store has blogs)
+Ensure that the search field is functioning correctly and the placeholder text 'blog name' is present in the search field.
+ Please verify whether the blogs can be selected and deselected for adding them to a category.
+Check whether the “Update” button is clickable and working properly.
+Check whether a success message “The blog category was updated successfully.” is shown after a category is updated.   
+Check whether clicking the “Ok” button in the success popup redirects to the blog categories list page
+verify if the blog category correctly displays the accurate count of blogs added within it. 
+Check whether the delete icon is working properly.
+Please confirm whether a confirmation message "Deleting this category will also remove the blog post(s)!, and assign them to the default category, Are you sure you want to remove this selected category? " is presented when deleting a category 
+Check whether a success message “Blog category removed successfully” is shown after a category is deleted by clicking on the OK button.
+Please check whether while deleting a blog category ,the blog posts added to that particular category will be moved to the “DEFAULT” category.
+
+Type 2:
+
+Click the add blog category button 
+Enter the category name
+Enter SEO Title 
+Enter Keyword
+Enter Meta description 
+Select "Comments are published automatically without reviewing" to Leave a Comment visible in the storefront.
+Tab the blogs 
+Please confirm whether the Blogs tab is loading properly and available blog posts are displayed
+Ensure that the search field is functioning correctly and the placeholder text 'blog name' is present in the search field.
+ Please verify whether the blogs can be selected and deselected for adding them to a category.
+Check whether the “Save” button is clickable and working properly.
+Check whether a success message “The blog category was created successfully.” is shown after a category is created  
+Check whether clicking the “Ok” button in the success popup redirects to the blog categories list page
+verify if the blog category correctly displays the accurate count of blogs added within it. 
+Type 3:
+Click the add blog category button 
+Enter the category name
+Enter SEO Title 
+Enter Keyword
+Enter Meta description  
+Select "Comments are allowed, but need review" to ensure that added comments are displayed under specific blog posts in the storefront after approval by the admin, if the blog post category comments type is pending.
+Tab the blogs 
+Please confirm whether the Blogs tab is loading properly and available blog posts are displayed
+Ensure that the search field is functioning correctly and the placeholder text 'blog name' is present in the search field.
+ Please verify whether the blogs can be selected and deselected for adding them to a category.
+Check whether the “Save” button is clickable and working properly.
+Check whether a success message “The blog category was created successfully.” is shown after a category is created  
+Check whether clicking the “Ok” button in the success popup redirects to the blog categories list page
+verify if the blog category correctly displays the accurate count of blogs added within it. 
+Blog category List page
+    
+Check whether the table titles blog category, comment status, blog post count, and actions are present or not.
+check whether the “blog category” name, which was added during the 'add blog category ' process, is displayed correctly.
+Check whether the “comment status” which was selected during the 'add blog category' process, is displayed correctly.
+Check whether the  “blog post count” is accurate based on the number of blog posts added
+Check whether the edit and delete icon are displayed under the corresponding “Actions” table titles.
+
+ Edit Blog category 
+
+Check whether the Edit icon is clickable or not.
+Check whether clicking on Edit icon redirects to Edit Blog category page.
+Check whether the alert popup “You have no changes to save.” is displayed while clicking the Update button without doing changes.
+Add the blog post to the category
+Check whether the confirmation popup “You have unsaved changes. Are you sure you want to leave this page?” is displayed while clicking the Cancel button after doing changes.
+Check whether the “Update” button is working properly
+Check whether the “The blog category was updated successfully.is displayed while clicking the update button after doing the changes and its  redirects to blog category list page
+Delete Blog Post
+
+Check whether the “Remove Blog” icon is clickable or not.
+Check whether the confirmation popup “Are you sure you want to remove the selected category(s) from the Blog Categories list?” is displayed after clicking the 'Remove Blog' icon for a blog category with zero blog post count."
+ Check whether the confirmation popup “Deleting this category will also remove the blog post(s) and assign them to the default category, Are you sure you want to remove this selected category? is displayed after clicking the 'Remove Blog' icon for a blog category with a non-zero number of blog post counts."
+Check whether the success popup “Blog removed successfully” is displayed after clicking “Yes” in the confirmation popup.
+Bulk delete 
+
+Check whether the bulk delete button is functioning properly.
+Check whether the alert popup “You have no category(s) selected to remove..” is displayed while clicking the “Bulk Delete” button without selecting any category(s).
+Select the categories that associate with blog post, you want to delete in bulk 
+Check whether the confirmation popup “Deleting these categories will also remove the blog post(s) and assign them to the default category, Are you sure you want to remove these selected categories?” is displaying while clicking on the “Bulk Delete” button after selecting category(s).  
+Select the categories without associate the blog post, you want to delete in bulk
+Check whether the confirmation popup “Are you sure you want to remove the selected category(s) from the Blog Categories list?” is displayed while clicking on the “Bulk Delete” button after selecting category(s).
+Sort
+
+Check whether the sort icon is functional and clickable.
+Verify sort options like 'Blog Category Title (A-Z)' and 'Blog Category Title (Z-A)' are clickable and working properly.
+Check whether the default blog category is displayed first in the category list by default.
+
+Script 3: 
+Storefront Blog Comments
+
+Verify if the 'Blogs' tab is displayed in the storefront header.
+Check whether the 'Blogs' tab is clickable and functional.
+Confirm if the 'No blogs available' message is displayed initially before adding the first blog when clicking the 'Blogs' tab in the header section.
+Ensure that clicking on the 'Blogs' tab in the header section reveals the blog posts if there are any available
+Ensure that a blog post is visible in the storefront only after the specified scheduled date when the scheduled publish option is chosen during blog post creation.
+Verify that the blog post is displayed in the storefront only if the availability toggle button is enabled during blog post creation.
+Check whether the search field is clickable and functional when blog posts are available.
+Confirm that the blog post main image added during blog post creation is displayed correctly in the published blog post.
+Verify that the blog post correctly displays the mapped blog category name.
+Confirm that the author's name is displayed correctly in the blog post.
+Click the  No comments category’ blog post 
+Verify that the blog post information is displayed correctly when the blog post is clicked.
+Verify that the author name , published date and Main image, are displayed correctly 
+Click the back arrow 
+Open comments are automatically published category blog
+Check details are loaded properly
+Check whether customers can click and interact with the 'Name,' 'Email,' and 'Write your comments here' fields to provide comments.
+Verify if an error message is displayed when attempting to submit a comment without filling out the required fields such as name, email, and comments.
+Enter name 
+Check whether the “Name should not exceed 40 characters” error message is displayed when the name exceeds more than 40 characters.
+Enter proper name
+Enter email 
+Check whether the “Email address is invalid”when enter invalid email format
+ Enter proper email
+Enter comments 
+Check whether the “Comment should not exceed 255 characters.” when you give the text more than 255 characters.
+Enter proper comments 
+Click post comment button
+Check whether clicking the 'Post Comment' button displays a confirmation snackbar with the message“Your comment was posted successfully,! Thank you!” 
+Check whether the added comments are immediately displayed under a specific blog post in the storefront without refreshing the page.
+ Check whether the available comments count under the blog post is displayed correctly.
+Verify if the commenter name and commented date are displayed in every comment.
+Check whether the up to five comments are displayed under a blog post and the “Show more” link is enabled if more than five comments are available in a blog post.
+Check whether all comments are displayed when clicking the Show more link and “Show less”  link is enabled in the bottom.        
+Check whether the show less button is clickable and functional
+Click back arrow
+Open pending case category’ blog post
+Check details are loaded properly
+Enter name
+Enter email
+Enter comments
+Check whether the comments are pending above the post button displaying the label message as 'Please note, comments need to be approved before they are published'.
+Click the post comment button.
+Check whether clicking the 'Post Comment' button displays a confirmation snackbar with the message“Your comment was posted successfully, we will publish it in a little while as our blog is moderated”
+Check whether pending comments are added on the admin side and approved by the admin through the moderation status.
+Check whether admin-approved comments are displayed above the 'Leave a Comment' fields.
+
+
+
+Script 4:
+
+Pending Comments
+
+When you first open the admin page, ensure that no pending comments are found, and confirm that the landing page displays a 'There are no blog pending comments listed here! when a customer shares their comments about the blog, they will be showcased here.' message.
+Please confirm if the name of the customer or visitor who posted blog comments in the storefront is accurately displayed.
+Please verify if the email of the customer or visitor who posted blog comments in the storefront is correctly displayed.
+Please verify if the comments made by the customer or visitor who posted on the blog are displayed correctly on the admin page.
+Please confirm if, by default, the moderation status is set to 'approved' when a comment is posted on a blog, if the blog category is “Comments are published automatically without reviewing “
+Please confirm if, by default, the moderation status is set to 'pending' when a comment is posted on a blog, if the blog category is “Comments are allowed, but needs review”
+Check whether the search field is functioning correctly and the placeholder text 'comments' is present in the search field.
+Check whether the search results are displayed accurately.
+Edit Pending comments 
+
+Click the edit icon on the pending comments 
+Please verify that the name, email, and comments sections in the edit pending comments popup fields are not editable.
+Please confirm if the edit icon permits the modification of comment moderation status from 'pending' to 'not approved,' 'approved,' 'mark as spam,' and 'unmark as spam.
+Verify if comments are displayed in the storefront only when the moderation status is changed from pending, to approved and click update button 
+Check if a confirmation message is displayed when click update button, and ensure that a success message such as “Moderation status was updated successfully”
+Ensure that comments are not displayed when it changes to any other state such as unapproved, marked as spam, and unmarked as spam.
+Check whether the close icon, cancel button, and update button within the edit popup fields are functional and responsive to clicks.
+
+Delete pending comments 
+
+In the pending comment list page Click the delete icon.
+Check whether, if pending comments are deleted, a confirmation message is displayed as 'Are you sure you want to remove this blog comment?'.
+Click YES button
+Check whether a success message 'Blog comment removed successfully' is shown after a pending comment is deleted by clicking on the OK button.
+
+Bulk Remove
+
+Check whether the bulk Remove button is functioning properly.
+Check whether the alert popup “You have no comment(s) selected to remove.” is displayed while clicking the “Bulk Delete” button without selecting any comments.
+Select the comments you want to delete in bulk
+Click Bulk remove button
+Check whether, if selected pending comments are deleted, a confirmation message is displayed as “Are you sure you want to remove the selected blog comments?”. 
+Click YES button
+Check whether a success message “ Blog comments were removed successfully” is shown after deleting the multiple comments.
+Check whether the deleted comments in admin will be removed from the storefront
+Filters
+
+Check whether the filter icon is functional and clickable.
+Check if the filtered status is displayed accurately.
+Verify if the filtered results like pending, approved, not approved, mark as spam and unmark as spam are displayed accurately.
+Confirm whether the 'Apply' button is enabled when filters are selected.
+Verify if the reset filter icon is displayed and working properly.
+Confirm whether the filters are reset when clicking the close icon in the side panel.
+
+Sort
+
+Check whether the sort icon is functional and clickable.	
+Check whether the sorted results like newest first and oldest first are displayed accurately.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
